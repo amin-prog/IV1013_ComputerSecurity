@@ -115,24 +115,4 @@ public class Mangler {
         for (int i = 0; i < dictionarySize; i++)
             mangledDictionary[i] = new StringBuilder(dictionary[i]).reverse().toString()  + dictionary[i];
     }
-
-    /*
-    private void prependNumber() {
-        for (int i = 0; i < dictionarySize; i++)
-            mangledDictionary[i] = number + dictionary[i];
-    }
-     */
-
-    /*
-    private void appendNumber() {
-        for (int i = 0; i < dictionarySize; i++)
-            mangledDictionary[i] = dictionary[i] + number;
-    }
-     */
-
-    /*
-    private void toggleCase() {
-
-    }
-     */
 }
